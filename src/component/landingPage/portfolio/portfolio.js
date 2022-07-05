@@ -37,7 +37,7 @@ const Portfolio = () => {
         <div className="portfolio-info">
           <h4>{item.name}</h4>
           <p>{item.type}</p>
-          <a href={item.img} data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="App 1"><i className="bx bx-plus"></i></a>
+          <a href={item.img} data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title={item.name}><i className="bx bx-plus"></i></a>
          {item.href && <a href={item.href} target='_blank' className="details-link" title="More Details"><i className="bx bx-link"></i></a>}
         </div>
       </div>
