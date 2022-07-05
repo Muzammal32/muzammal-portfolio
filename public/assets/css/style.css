@@ -70,19 +70,19 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
-  transition: all 0.5s;
-  z-index: 997;
-  transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
-}
-#header2 {
   height: 50px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(47, 50, 67);
 }
+/* #header2 {
+  height: 50px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: rgba(47, 50, 67);
+} */
 #header.header-transparent {
   background: transparent;
 }

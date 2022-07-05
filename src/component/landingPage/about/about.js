@@ -9,7 +9,7 @@ const About = () => {
                 <div className="tab-content" data-aos="fade-up">
                     <div className="tab-pane active show" id="tab-1">
                         <div className="row">
-                            <div className="col-lg-6 order-2 order-lg-1 mt-0 mt-lg-0 d-flex justify-content-center aligns-items-center" style={{flexDirection: "column" ,alignItems:'center' }}>
+                            <div className="col-lg-6 order-2 order-lg-1 mt-5 mt-lg-0 d-flex justify-content-center aligns-items-center" style={{flexDirection: "column" ,alignItems:'center' }}>
                                 <div className="section-title" data-aos="zoom-out">
                                     <h2>About</h2>
                                     <p>Who I'm</p>
