@@ -76,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   background: rgba(47, 50, 67);
 }
-/* #header2 {
+#header2 {
   height: 50px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   background: rgba(47, 50, 67);
-} */
+}
 #header.header-transparent {
   background: transparent;
 }

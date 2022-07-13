@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
      
-        <header id='header' className="fixed-top d-flex align-items-center  header-transparent ">
+        <header id={navbar?'header':'header2'} className="fixed-top d-flex align-items-center  header-transparent ">
           <div className="container d-flex align-items-center justify-content-between">
       
             <div className="logo">
