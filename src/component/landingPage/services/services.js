@@ -14,7 +14,7 @@ const Services = () => {
 
         <div className="section-title" data-aos="zoom-out">
           <h2>Services</h2>
-          <p>What we do offer</p>
+          <p>What I offer</p>
         </div>
 
         <div className="row g-5">

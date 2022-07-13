@@ -34,7 +34,7 @@ const ContactUs = () => {
       <div className="container">
         <div className="section-title" data-aos="zoom-out">
           <h2>Contact</h2>
-          <p>Contact Us</p>
+          <p>Contact Me</p>
         </div>
 
         <div className="row mt-5">
