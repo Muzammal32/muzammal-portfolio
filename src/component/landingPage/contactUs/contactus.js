@@ -1,17 +1,11 @@
-import React, { useRef, useState, CSSProperties } from "react"
 import emailjs from '@emailjs/browser';
-import { ToastContainer, toast } from 'react-toastify';
+import React, { useRef } from "react";
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import ClipLoader from "react-spinners/ClipLoader";
-
 
 
 const ContactUs = () => {
-
-
   const form = useRef();
-  let [loading, setLoading] = useState(true);
-
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -96,9 +90,9 @@ const ContactUs = () => {
         <ClipLoader loading={loading} size={50} />
       </div> */}
       </div>
-     
-    </section>
-  )
-}
 
-export default ContactUs
+    </section>
+  );
+};
+
+export default ContactUs;
