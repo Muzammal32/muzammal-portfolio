@@ -17,8 +17,9 @@ const About = () => {
 
                                 {/* <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3> */}
                                 <div>
-                                <p className="fst-italic">
-                                    Hi, I’m Muzammal Hayat, a full-stack developer having more than three years of experience in Web and Mobile App development. I'm an active, diligent, and optimistic young man with a strong desire to learn. I'm a detail-oriented, highly organized individual that is committed to delivering a high-quality product. I'll bring all of my experience to bear on making your app better and quicker.
+                                    <p className="fst-italic">
+                                        Hi, I'm Muzammal Hayat, a seasoned full-stack developer with over four years of expertise in developing mobile and web applications. I'm an enthusiastic and optimistic individual, who is always eager to learn and grow. My attention to detail and organizational skills are impeccable, which ensure that I deliver high-quality results. My extensive experience has equipped me with the necessary skills to enhance the speed and functionality of your app, thereby making it even better.
+                                    {/*Hi, I’m Muzammal Hayat, a full-stack developer having more than three years of experience in Web and Mobile App development. I'm an active, diligent, and optimistic young man with a strong desire to learn. I'm a detail-oriented, highly organized individual that is committed to delivering a high-quality product. I'll bring all of my experience to bear on making your app better and quicker.*/}
                                 </p>
                                 </div>
                                 {/* <ul>

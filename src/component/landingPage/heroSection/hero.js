@@ -7,13 +7,15 @@ const Hero = () => {
 
 
                 <div className="carousel-container">
-                <div >
-                    <h1>Muzammal Hayat</h1>
-                    <p> I'm <span class="typed" data-typed-items="Developer,Designer,Freelancer,"></span></p>
-                    {/* <h2 className="animate__animated animate__fadeInDown">I'm Muzammal Hayat</h2>
-                    <h2 className="hero-subtitle"><span className="typed"
-                        data-typed-items="Mobile App Dev,Web App Dev,Full Stack Dev,"></span></h2> */}
-                   <center> <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a></center>
+                    <div >
+                        <h1>Muzammal Hayat</h1>
+                        {/*<p> I'm <span class="typed" data-typed-items="Developer,Designer,Freelancer,"></span></p>*/}
+
+                        <p className="animate__animated animate__fadeInDown">{"I'm "}
+                            <span className="typed"
+                                data-typed-items=" Mobile App Dev, Web App Dev, Freelancer,"></span>
+                        </p>
+                        <center> <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a></center>
                     </div>
                 </div>
 
@@ -36,7 +38,7 @@ const Hero = () => {
             </svg>
 
         </section>
-    )
-}
+    );
+};
 
 export default Hero;
